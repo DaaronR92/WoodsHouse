@@ -6,53 +6,46 @@
     background-color: black;
 }
 
-/* Style for the game window */
 .gamewindow {
-    width: 99vw; /* Full width of the viewport */
-    height: 98vh; /* Full height of the viewport */
-    margin: 0; /* No margin */
-    display: flex; /* Using flexbox to center the content */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    background-color: black; /* Background color black */
-    overflow: hidden; /* No scrolling */
+    width: 99vw; 
+    height: 98vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
 }
 
-/* Style for the map */
 .map {
-    width: 90vw; /* 90% of the viewport width */
-    height: 90vh; /* 90% of the viewport height */
-    background-image: url('Pictures/Map.png'); /* Ensure the path is correct */
-    background-size: 100% 100%; /* Cover the whole area of .map */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-position: center; /* Center the image in the div */
+    width: 90vw;
+    height: 90vh;
+    background-image: url('Pictures/Map.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
-/* House */
 .house {
-    width: 250px; /* Set the desired width of the house */
-    height: 250px; /* Set the desired height of the house */
-    position: absolute; /* Position absolutely within the map */
-    background-image: url('Pictures/House.png'); /* Ensure the path to your house image is correct */
-    top: 50%; /* Center the house vertically */
-    left: 50%; /* Center the house horizontally */
-    transform: translate(-50%, -50%); /* Offset the house by half its width and height to center it perfectly */
-    background-size: 150% 100%; /* Stretch the image to fill the div */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-position: center; /* Centers the background image within the house div */
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-image: url('Pictures/House.png');
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
-
-/* Player */
 #player1 {
-    width: 50px; /* Width of the player */
-    height: 50px; /* Height of the player */
-    position: absolute; /* Position absolutely within the map */
-    background-image: url('path/to/your/player-image.png'); /* Add your player sprite */
-    top: 400px; /* Starting top position */
-    left: 400px; /* Starting left position */
-    z-index: 10; /* Ensure the player is above other items */
-    background-size: contain; /* Ensures the image fits the div size */
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('path/to/your/player-image.png');
+    top: 400px;
+    left: 400px;
+    z-index: 10;
+    background-size: contain;
 }
